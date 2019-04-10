@@ -1,0 +1,122 @@
+.jumbotron{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgb(251, 255, 0);
+    background-color: rgba(90, 90, 90, 0.671);
+}
+
+body{
+    background: url('../images/fancy-cushion.png');
+}
+
+.section1{   
+    width: 1100px;
+    margin: auto;
+    color: antiquewhite;
+}
+
+
+.instructions{
+    font-size: 20px;
+    width: 1100px;
+    margin: auto;
+    color: rgb(255, 243, 173);
+    font-family: 'Righteous', cursive;
+}
+
+.bgStyle{
+    display: block;
+    background-color: rgba(218, 218, 218, 0.651);
+    padding-top: 40px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.cpuNumber{
+    font-size: 50px;
+}
+
+.main-game{
+    width: 1100px;
+    margin: auto;
+    color: antiquewhite;
+}
+
+.aqua{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-image: url('../images/aqua-stone.png')
+
+}
+
+.red{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-image: url('../images/red-stone.jpg')
+}
+
+.yellow{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-image: url('../images/yellow-stone.jpg')
+}
+
+.green{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    background-image: url('../images/green-stone.jpg')
+}
+
+.row {
+    width: 100%;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .block {
+    width: 150px;
+  }
+
+
+  .scorep{
+    display: block;
+    background-color: rgba(218, 218, 218, 0.651);
+    padding-top: 40px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 50px;
+    font-size: 40px;
+  }
+
+  .footer{
+    display: block;
+    color:rebeccapurple;
+    padding-top: 40px;
+    text-align: center;
+    width: 500px;
+    margin: 50px;
+    padding: 50px;
+    font-size: 20px;
+  }
+
+  .wintxt{
+      color: rgb(0, 141, 0);
+      font-size: 30px;
+  }
+
+  .losstxt{
+      color: brown;
+      font-size: 30px;
+  }
